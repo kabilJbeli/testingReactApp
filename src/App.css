@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.separator {
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 15px;
+  margin: auto;
+  display: block;
+}
+.programTitle {
+  margin-bottom: 20px;
+}
+.programSubTitle {
+  padding-top: 10px;
+}
+h1 {
+  float: left;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.backgroundit {
+  background: url("https://gomycode.tn/assets/images/Bkg/programs.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  color: #fff;
+  margin-top: -300px;
+  height: 530px;
+}
+.numbers {
+  float: left;
+}
+.col-md-3.col-xs-12.col-sm-12,
+.col-md-2.col-xs-12.col-sm-12 {
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .col-md-3.col-xs-12.col-sm-12 {
+    margin-bottom: 30px;
+  }
+  .col-md-4 {
+    margin-bottom: 30px;
+  }
+  .prg-btn {
+    position: relative !important;
+    bottom: 0px !important;
+    top: 50% !important;
+    margin: auto;
+    left: auto !important;
+  }
+  .backgroundit {
+    color: #fff;
+    margin-top: 0px !important;
+    height: auto !important;
+  }
+  .backgroundit section {
+    margin-top: 0px !important;
+  }
+}
+.sessionTitle {
+  text-align: center !important;
+}
+.prg-btn {
+  background: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 2px 3px 4px 0 rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 35px;
+  margin: auto;
+  left: 33%;
+}
+.fullNumber {
+  font-size: 46px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.uppercase {
+  text-transform: uppercase !important;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Ubuntu-Bold", sans-serif;
+}
+
+.single-program {
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  padding: 3px 0;
+  font-size: 18px;
+}
+.backgroundit section {
+  margin-top: 230px;
+}
